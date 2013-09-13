@@ -1,4 +1,3 @@
-
 GNU Radio for EverFlourish remote control plug
 ==============================================
 
@@ -22,6 +21,8 @@ This sqeuence was repeated on 'channels' (A though D).
 
 The recording was made using the EverFlourish.grc flowgraph on GNU Radio 3.7.1 using a USRP N210. The same flowgraph can playback the recording.
 
-
+Decoding the signal
+===================
+My hypothesis is that the device uses [OOK modulation](http://en.wikipedia.org/wiki/On-off_keying). 
 
 
