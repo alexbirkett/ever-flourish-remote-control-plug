@@ -25,4 +25,8 @@ Decoding the signal
 ===================
 My hypothesis is that the device uses [OOK modulation](http://en.wikipedia.org/wiki/On-off_keying). 
 
+Links
+=====
+[Key Fob Lab: Demodulating Over the Air OOK](http://www.ni.com/white-paper/13192/en/)
+
 
