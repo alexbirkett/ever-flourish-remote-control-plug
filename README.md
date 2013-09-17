@@ -4,8 +4,8 @@ GNU Radio for EverFlourish remote control plug
 [Device being tested is available here](http://www.clasohlson.com/no/Fjernstyrt-bryter-3-pack/36-3570)
 
 
-Remote control recording
-========================
+## Remote control recording
+
 
 The file remote_control_recording contains a recording of all buttons on the remote control being pressed. The buttons were pressed in the following order:
 
@@ -21,12 +21,12 @@ This sqeuence was repeated on 'channels' (A though D).
 
 The recording was made using the EverFlourish.grc flowgraph on GNU Radio 3.7.1 using a USRP N210. The same flowgraph can playback the recording.
 
-Decoding the signal
-===================
+## Decoding the signal
+
 My hypothesis is that the device uses [OOK modulation](http://en.wikipedia.org/wiki/On-off_keying). 
 
-Links
-=====
+## Links
+
 [Key Fob Lab: Demodulating Over the Air OOK](http://www.ni.com/white-paper/13192/en/)
 
 
