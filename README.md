@@ -21,9 +21,15 @@ This sqeuence was repeated on 'channels' (A though D).
 
 The recording was made using the EverFlourish.grc flowgraph on GNU Radio 3.7.1 using a USRP N210. The same flowgraph can playback the recording.
 
-## Decoding the signal
+## RF Protocol
 
 My hypothesis is that the device uses [OOK modulation](http://en.wikipedia.org/wiki/On-off_keying). 
+
+When a button on the remote control is held down a message is repeatedly broadcast. The message is 33.6 ms long and is followed by 10.4 ms of silence. The message is built up of 25 pulses of carrier. There appear to be two types of pulses:
+
+* Long - 975 µs of carrier followed by 332 of silence
+* Short - 344 µs of carrier followed by 1002 µs of silence
+
 
 ### Pulses
 
