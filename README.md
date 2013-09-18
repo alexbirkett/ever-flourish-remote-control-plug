@@ -273,5 +273,6 @@ L = long pulse
 ## Links
 
 [Key Fob Lab: Demodulating Over the Air OOK](http://www.ni.com/white-paper/13192/en/)
+[Discussion on Reddit](http://www.reddit.com/r/GNURadio/comments/1mgfkc/ook_remote_control/)
 
 
