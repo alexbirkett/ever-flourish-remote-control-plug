@@ -33,7 +33,16 @@ This sqeuence was repeated on 'channels' (A though D).
 
 The recording was made using the EverFlourish.grc flowgraph on GNU Radio 3.7.1 using a USRP N210. The same flowgraph can playback the recording.
 
-### Viewing in Baudline
+### Opening in Baudline
+
+The recording can be opened in the [Baudline](http://www.baudline.com/) signal analyser. The following settings should be used
+
+* File type - raw
+* Sample rate - custom 250000
+* Decode format - 32 bit float le endian
+* Channels - 2 (enable quadrature)
+
+<a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/baudline_import.png"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/baudline_import.png"/></a>
 
 #### Closeup of waveform showing long and short pulses
 <a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/waveform1.png"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/waveform1.png"/></a>
