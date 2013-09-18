@@ -270,6 +270,17 @@ L = long pulse
 
 </table>
 
+## Decoding
+
+### Converting sinusoids to square pulses
+This can be achived using the Complex to Mag^2 block
+
+#### Message waveform after being passed through Complex to Mag^2 block 
+<a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/square_pulse.png"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/square_pulse.png"/></a>
+
+
+
+
 ## Links
 
 [Key Fob Lab: Demodulating Over the Air OOK](http://www.ni.com/white-paper/13192/en/)
