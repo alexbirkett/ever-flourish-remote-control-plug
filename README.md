@@ -6,7 +6,7 @@ GNU Radio for EverFlourish remote control plug
 This is my first foray into GNURadio. The objective of this project is to decode the messages sent by a EverFlourish plug socket remote control using GNU Radio Companion, idealy without using any custom blocks.
 
 
-## Equipment under test
+## The remote control and plug
 
 <a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/remote-and-plug1.jpg"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/remote-and-plug1.jpg"/></a>
 
