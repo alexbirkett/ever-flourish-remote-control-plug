@@ -13,7 +13,7 @@ This is my first foray into GNURadio. The objective of this project is to decode
 <a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/remote-and-plug2.jpg"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/remote-and-plug2.jpg"/></a>
 
 
-Available [here](http://www.clasohlson.com/no/Fjernstyrt-bryter-3-pack/36-3570) for purchase
+Purchased from Clas Ohlson in norway. Available [here](http://www.clasohlson.com/no/Fjernstyrt-bryter-3-pack/36-3570)
 
 
 ## Remote control recording
@@ -29,7 +29,7 @@ The file remote_control_recording contains a recording of all buttons on the rem
 * Button 3 Off
 
 
-This sqeuence was repeated on 'channels' (A though D). 
+This sqeuence was repeated on all 'channels' (A though D). 
 
 The recording was made using the EverFlourish.grc flowgraph on GNU Radio 3.7.1 using a USRP N210. The same flowgraph can playback the recording.
 
