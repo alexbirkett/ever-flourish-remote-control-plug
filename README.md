@@ -33,6 +33,14 @@ This sqeuence was repeated on 'channels' (A though D).
 
 The recording was made using the EverFlourish.grc flowgraph on GNU Radio 3.7.1 using a USRP N210. The same flowgraph can playback the recording.
 
+### Viewing in Baudline
+
+#### Closeup of waveform showing long and short pulses
+<a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/waveform1.png"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/waveform1.png"/></a>
+#### Waveform showing complete message
+<a href="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/waveform2.png"><img src="https://raw.github.com/alexbirkett/ever-flourish-remote-control-plug/master/images/waveform2.png"/></a>
+
+
 ## RF Protocol
 
 My hypothesis is that the device uses [OOK modulation](http://en.wikipedia.org/wiki/On-off_keying). 
@@ -41,6 +49,8 @@ When a button on the remote control is held down a message is repeatedly broadca
 
 * Long - 975 µs of carrier followed by 332 of silence
 * Short - 344 µs of carrier followed by 1002 µs of silence
+
+
 
 
 ### Pulses
