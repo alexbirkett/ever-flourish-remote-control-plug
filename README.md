@@ -1,6 +1,11 @@
 GNU Radio for EverFlourish remote control plug
 ==============================================
 
+
+## Objective
+This is my first foray into GNURadio. The objective of this project is to decode the messages sent by a EverFlourish plug socket remote control using GNU Radio Companion, idealy without using any custom blocks.
+
+
 [Device being tested is available here](http://www.clasohlson.com/no/Fjernstyrt-bryter-3-pack/36-3570)
 
 
